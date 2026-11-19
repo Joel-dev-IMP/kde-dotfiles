@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
-from globals import TEXT_FILES, BINARY_FILES, TARGET_PATH, SOURCE_PATH
+from globals import TEXT_FILES, BINARY_FILES, TARGET_PATH, SOURCE_PATH, KITTY_FILES
 
 
 def replace_variables(input: str) -> str:
@@ -23,6 +23,12 @@ def main() -> None:
             target.chmod(0o755)
 
     for src in BINARY_FILES:
+        target = TARGET_PATH / src.relative_to(SOURCE_PATH)
+        target.parent.mkdir(exist_ok=True)
+
+        src.copy(target)
+
+    for src in KITTY_FILES:
         target = TARGET_PATH / src.relative_to(SOURCE_PATH)
         target.parent.mkdir(exist_ok=True)
 

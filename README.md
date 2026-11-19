@@ -9,6 +9,7 @@ Instead, I focused on getting the look and feel similar to my prior setups and c
 - Keyboard Shortcuts: `kglobalshortcutsrc`
 - KDE Theme/Settings: `kdeglobals`, `klaunchrc`, `ksplashrc`, `kwinrc`, `plasma_workspace.notifyrc`, `plasma-org.kde.plasma.desktop-appletsrc`, `plasmanotifyrc`, `plasmarc`, `plasmashellrc`
 - KRunner Settings: `krunnerrc`
+- Kitty Configuration: `kitty/`
 
 **Installation:**
 Download/clone the repository and run `./install.py` to copy all files into `~/.config/`.
@@ -57,3 +58,7 @@ KRunner has been configured to open in the center of the screen, similar to dmen
 A lot of notifications have been disabled, for example when plugging in a new USB stick.
 Similar to the previous configs, there is a top bar with the desktops on the left, a calendar widget in the center and system control widgets on the right.
 Apart from that, the theme and settings are pretty much unmodified.
+
+## Kitty Configuration
+
+The configuration for kitty uses the [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/JetBrainsMono.zip), which you need to install separately (into `~/.fonts/`).

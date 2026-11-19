@@ -24,3 +24,7 @@ BINARY_FILES: list[Path] = [
     SOURCE_PATH / "wallpapers" / "space_blue_wallpaper.png",
     SOURCE_PATH / "wallpapers" / "space_green_wallpaper.png",
 ]
+
+KITTY_FILES: list[Path] = [
+    SOURCE_PATH / "kitty" / "kitty.conf"
+]

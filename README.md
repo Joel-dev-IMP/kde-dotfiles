@@ -20,7 +20,8 @@ Certain settings might not take effect, even though they are configured in the D
 - Change the filter for files shown on the desktop
 - Add the scripts from `~/.config/kdedefaults/scripts/` as shortcuts in `Settings > Keyboard > Shortcuts > Add New > Command or Script`
 
-If you want to use Kitty as your terminal, refer to the [kitty documentation](https://sw.kovidgoyal.net/kitty/binary/#manually-installing) for instructions.
+If you want to use Kitty as your terminal, refer to the [kitty documentation](https://sw.kovidgoyal.net/kitty/binary/) for installation instructions.
+Fedora users can install kitty with `sudo dnf install kitty`.
 
 ## Keyboard Shortcuts
 

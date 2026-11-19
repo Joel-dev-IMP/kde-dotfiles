@@ -30,6 +30,8 @@ Window tiling needs to be done manually, but it uses similar shortcuts to i3:\
 Unfortunately, KDE does not have a concept of "Moving the focus to the left window", because it is not a tiling window manager.
 Instead, these shortcuts behave like `Alt + Tab`/`Alt + Shift + Tab` (which is a common shortcut in different operating systems that cycles through all windows (on the current desktop) ordered by "most recently focused").
 
+Since `Meta + L` is no longer available as shortcut for locking the screen, `Meta + E` now locks the screen and `Meta + Shift + E` logs out the current user.
+
 **Application Launches**
 
 - `Meta + Return` launches a terminal (Kitty)

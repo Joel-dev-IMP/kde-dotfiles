@@ -1,0 +1,17 @@
+[General]
+Number of Actions=0
+
+[PlasmaViews][Panel 2]
+floating=0
+panelVisibility=0
+shell=org.kde.plasma.desktop
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=34
+
+[PlasmaViews][Panel 33]
+floating=0
+shell=org.kde.plasma.desktop
+
+[PlasmaViews][Panel 33][Defaults]
+thickness=34

@@ -7,6 +7,7 @@ Instead, I focused on getting the look and feel similar to my prior setups and c
 **Contents:**
 
 - Keyboard Shortcuts: `kglobalshortcutsrc`
+- KDE Theme/Settings: `kdeglobals`, `klaunchrc`, `ksplashrc`, `kwinrc`, `plasmarc`, `plasmashellrc`
 
 ## Keyboard Shortcuts
 
@@ -34,3 +35,8 @@ Instead, these shortcuts behave like `Alt + Tab`/`Alt + Shift + Tab` (which is a
 - `Meta + Return` launches a terminal (Kitty)
 - `Meta + D` opens the application launcher (KRunner).
 - `Meta + S` opens the system settings
+
+## KDE Theme/Settings
+
+I've disabled the bounce animation at the cursor when applications open, disabled the splash screen when logging in, added custom wallpapers and added 10 desktops.
+Apart from that, the theme and settings are pretty much unmodified.

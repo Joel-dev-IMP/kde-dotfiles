@@ -41,4 +41,5 @@ Since `Meta + L` is no longer available as shortcut for locking the screen, `Met
 ## KDE Theme/Settings
 
 I've disabled the bounce animation at the cursor when applications open, disabled the splash screen when logging in, added custom wallpapers and added 10 desktops.
+KRunner has been configured to open in the center of the screen, similar to dmenu/rofi/wofi.
 Apart from that, the theme and settings are pretty much unmodified.

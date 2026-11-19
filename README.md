@@ -7,7 +7,8 @@ Instead, I focused on getting the look and feel similar to my prior setups and c
 **Contents:**
 
 - Keyboard Shortcuts: `kglobalshortcutsrc`
-- KDE Theme/Settings: `kdeglobals`, `klaunchrc`, `ksplashrc`, `kwinrc`, `plasmarc`, `plasmashellrc`
+- KDE Theme/Settings: `kdeglobals`, `klaunchrc`, `ksplashrc`, `kwinrc`, `plasma_workspace.notifyrc`, `plasma-org.kde.plasma.desktop-appletsrc`, `plasmanotifyrc`, `plasmarc`, `plasmashellrc`
+- KRunner Settings: `krunnerrc`
 
 ## Keyboard Shortcuts
 
@@ -43,4 +44,5 @@ Since `Meta + L` is no longer available as shortcut for locking the screen, `Met
 I've disabled the bounce animation at the cursor when applications open, disabled the splash screen when logging in, added custom wallpapers and added 10 desktops.
 KRunner has been configured to open in the center of the screen, similar to dmenu/rofi/wofi.
 A lot of notifications have been disabled, for example when plugging in a new USB stick.
+Similar to the previous configs, there is a top bar with the desktops on the left, a calendar widget in the center and system control widgets on the right.
 Apart from that, the theme and settings are pretty much unmodified.

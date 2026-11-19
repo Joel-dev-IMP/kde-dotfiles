@@ -10,6 +10,17 @@ Instead, I focused on getting the look and feel similar to my prior setups and c
 - KDE Theme/Settings: `kdeglobals`, `klaunchrc`, `ksplashrc`, `kwinrc`, `plasma_workspace.notifyrc`, `plasma-org.kde.plasma.desktop-appletsrc`, `plasmanotifyrc`, `plasmarc`, `plasmashellrc`
 - KRunner Settings: `krunnerrc`
 
+**Installation:**
+Download/clone the repository and run `./install.py` to copy all files into `~/.config/`.
+Log out and log back in to load the configuration changes.
+Certain settings might not take effect, even though they are configured in the Dotfiles, so you might have to do the following steps after installation:
+
+- Change the Desktop wallpaper
+- Change the filter for files shown on the desktop
+- Add the scripts from `~/.config/kdedefaults/scripts/` as shortcuts in `Settings > Keyboard > Shortcuts > Add New > Command or Script`
+
+If you want to use Kitty as your terminal, refer to the [kitty documentation](https://sw.kovidgoyal.net/kitty/binary/#manually-installing) for instructions.
+
 ## Keyboard Shortcuts
 
 **Window & Desktop Management**
